@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Psuedo-Class</title>
+        <style>
+            header li{
+                list-style: none;
+            }
+            a:link,a:visited{
+                text-decoration: none;
+                background-color:cornflowerblue;
+                border: 1px solid  blue;
+                color: black;
+                display:block;
+                width: 200px;
+                margin-bottom: 1px;
+            }
+            a:hover,a:active{
+                background-color:darkgrey;
+                color: crimson;
+                cursor:pointer;
+            }
+            header li:nth-child(3){
+                font-size: 23px;
+            }
+            section div:nth-child(odd){
+                background-color: grey;
+            }
+            section div:nth-child(4):hover{
+                background-color:hotpink;
+                cursor:pointer;
+
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Psuedo Class selectors</h1>
+
+        <header>
+            <ul>
+                <li><a href="https://www.facebook.com/rakesh.gowda.374/" target="_blank">facebok home</a></li>
+                <li><a href="https://search.yahoo.com/search?fr=mcafee&type=E211US714G0&p=angular+js" target="_blank">angularjs</a></li>
+                <li><a href="https://www.facebook.com/deepthi.sunaina.982" target="_blank">deepthi sunaina</a></li>   
+            </ul>
+            <section>
+                <div>Div1</div>
+                <div>Div2</div>
+                <div>Div3</div>
+                <div>Div4</div>
+                <div>Div5</div>
+                <div>Div6</div>
+                <div>Div7</div>
+                <div>Div8</div>
+                <div>Div9</div>
+                <div>Div10</div>
+                <div>Div11</div>
+                <div>Div12</div>
+                <div>Div13</div>
+                <div>Div14</div>
+                <div>Div15</div>
+                <div>Div16</div>
+                <div>Div17</div>
+            </section>
+        </header>
+    </body>
+</html>
