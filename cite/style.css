@@ -1,0 +1,37 @@
+h1{
+    color:darkslateblue;
+    background-color:darksalmon;
+    text-align: center;
+    }
+header li{
+    list-style: none;
+}
+a:link,a:visited{
+    color:deeppink;
+    background-color:lightblue;
+    border: 1px solid blue;
+    width: 200px;
+    display: block;
+    margin-bottom: 2px;
+}
+a:hover,a:active{
+    color: crimson;
+    background-color:lightcoral;
+}
+header li:nth-child(3){
+    font-size: 24px;
+}
+section div:nth-child(4){
+    color: lightcoral;
+    background-color: lightcyan;
+    cursor: pointer;
+
+}
+section div:nth-child(odd){
+    background-color:gray;
+}
+section div:nth-child(2):hover{
+    background-color: indianred;
+    cursor: pointer;
+
+}
