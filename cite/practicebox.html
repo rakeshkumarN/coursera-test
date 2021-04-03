@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Box-model</title>
+    <style>
+        #box{
+            background-color: darkblue;
+            padding: 10px 10px 10px 10px;
+            box-sizing: border-box;
+            border: 10px solid black;
+            margin-top: 30px;
+            margin-left: 30px;
+            width: 500px;
+            float: left;
+            
+        }
+        #content{
+            background-color: darkgreen;
+            font-size: 15px;
+            font-style: italic;
+            font-weight: 400;
+        }
+        #box1{
+            background-color: darkblue;
+            padding: 10px 10px 10px 10px;
+            box-sizing: border-box;
+            border: 10px solid black;
+            margin-top: 30px;
+            margin-left: 30px;
+        
+            width: 500px;
+            float: left;
+        }
+        #content1{
+            background-color: darkgreen;
+            font-size: 15px;
+            font-style: italic;
+            font-weight: 400;
+        }  
+        div{
+            float: left;
+        }
+        body{
+            background-color: darkgray;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Box-model</h1>
+        <div><img src="arnold.jpg" width="300" height="350"></div>
+        <div id="box">
+            <div id="content">“I refuse to believe today will just be another day in my life. All that I am. All that I will become will be written through my thoughts and my actions. I’ve conditioned my mind. Trained my body. Sacrificed my soul. There will be obstacles. Doubters. Mistakes. But nothing comes to those who wait. Every champion was once a contender that refused to give up.”</div>
+        </div>
+        <div id="box1">
+            <div id="content1">“I refuse to believe today will just be another day in my life. All that I am. All that I will become will be written through my thoughts and my actions. I’ve conditioned my mind. Trained my body. Sacrificed my soul. There will be obstacles. Doubters. Mistakes. But nothing comes to those who wait. Every champion was once a contender that refused to give up.”</div>
+        </div>
+    </body>
+</html>
