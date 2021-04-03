@@ -35,3 +35,6 @@ section div:nth-child(2):hover{
     cursor: pointer;
 
 }
+body{
+    background-color:cadetblue;
+}
